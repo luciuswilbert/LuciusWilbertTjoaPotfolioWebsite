@@ -379,16 +379,29 @@ h3.my-profession {
     max-width: 50%;
 }
 
-#LinkedIn, #Email {
+#LinkedIn {
     color: lightskyblue;
     text-decoration: underline;
 }
 
-#LinkedIn, #Email:hover {
-    color: darkblue;
+#Email {
+    color: lightskyblue;
+    text-decoration: underline;
 }
 
-#LinkedIn:visited, #Email:visited {
+#LinkedIn:hover {
+    color: purple;
+}
+
+#Email:hover {
+    color: purple;
+}
+
+#LinkedIn:visited {
+    color: lightskyblue; /* Reset to original color */
+}
+
+#Email:visited {
     color: lightskyblue; /* Reset to original color */
 }
 
