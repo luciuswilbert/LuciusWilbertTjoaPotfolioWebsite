@@ -388,6 +388,11 @@ h3.my-profession {
     color: darkblue;
 }
 
+#LinkedIn:visited, #Email:visited {
+    color: lightskyblue; /* Reset to original color */
+}
+
+
 .about .about-content .personal-info .info-item p {
     font-weight: 600;
     padding: 10px 0;
