@@ -379,12 +379,12 @@ h3.my-profession {
     max-width: 50%;
 }
 
-#LinkedIn {
+#LinkedIn, #Email {
     color: lightskyblue;
     text-decoration: underline;
 }
 
-#LinkedIn:hover {
+#LinkedIn, #Email:hover {
     color: darkblue;
 }
 
