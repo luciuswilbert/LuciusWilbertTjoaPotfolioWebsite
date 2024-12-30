@@ -379,6 +379,15 @@ h3.my-profession {
     max-width: 50%;
 }
 
+#LinkedIn {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+#LinkedIn:hover {
+    color: darkblue;
+}
+
 .about .about-content .personal-info .info-item p {
     font-weight: 600;
     padding: 10px 0;
