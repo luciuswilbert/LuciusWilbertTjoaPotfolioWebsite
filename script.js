@@ -12,3 +12,13 @@ var typedAbout = new Typed(".typing-about", {
     BackSpeed:60,
     loop:true
 })
+
+function scrollToContact(subject) {
+    // Scroll to the contact section
+    const contactSection = document.getElementById('contact');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+
+    // Auto-select the subject
+    const subjectField = document.getElementById('subject');
+    subjectField.value = subject;
+}
