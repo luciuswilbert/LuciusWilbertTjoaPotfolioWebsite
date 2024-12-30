@@ -295,7 +295,7 @@ h3.my-profession {
     margin: 15px 0;
 }
 
-.typing {
+.typing-home, .typing-about {
     color: var(--skin-color);
 }
 
