@@ -141,6 +141,10 @@ ul {
 
 /* Aside */
 
+.hover-transform-aside:hover {
+    transform: scale(1.25);
+}
+
 .aside {
     width: 270px;
     background: var(--bg-black-100);
@@ -270,6 +274,42 @@ ul {
 
 
 /* Home */
+
+.home .home-info .btn.hire-me {
+    height: 40px; /* Reduce height */
+    padding: 0 20px 0 15px; /* Reduce padding */
+    max-width: 150px; /* Set a maximum width */
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--skin-color), #ff6b6b); /* Gradient background */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Slightly smaller border radius */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    position: relative; /* For positioning the arrow */
+    overflow: hidden; /* To contain the arrow */
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Vertically center the text */
+    justify-content: space-between; /* Space between text and icon */
+    text-decoration: none; /* Remove underline from link */
+    margin-top: 20px; /* Add space above the button */
+    font-size: 18px; /* Reduce font size */
+}
+
+.home .home-info .btn.hire-me:hover {
+    background: linear-gradient(90deg, #ff6b6b, var(--skin-color)); /* Reverse gradient on hover */
+    transform: scale(1.10); /* Slightly enlarge */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.home .home-info .btn.hire-me i {
+    margin-left: 10px; /* Add space between text and icon */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.home .home-info .btn.hire-me:hover i {
+    transform: translateX(5px); /* Move the icon slightly on hover */
+}
 
 .home {
     min-height: 100vh;
@@ -430,12 +470,43 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info .buttons {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .about .about-content .personal-info .buttons .btn {
-    margin-right: 15px;
-    margin-top: 10px;
+    height: 40px; /* Reduce height */
+    padding: 0 20px 0 15px; /* Reduce padding */
+    max-width: 150px; /* Set a maximum width */
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--skin-color), #ff6b6b); /* Gradient background */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Slightly smaller border radius */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    position: relative; /* For positioning the arrow */
+    overflow: hidden; /* To contain the arrow */
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Vertically center the text */
+    justify-content: space-between; /* Space between text and icon */
+    text-decoration: none; /* Remove underline from link */
+    margin-top: 20px; /* Add space above the button */
+    font-size: 14px; /* Reduce font size */
+}
+
+.about .about-content .personal-info .buttons .btn:hover {
+    background: linear-gradient(90deg, #ff6b6b, var(--skin-color)); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.about .about-content .personal-info .buttons .btn i {
+    margin-left: 10px; /* Add space between text and icon */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.about .about-content .personal-info .buttons .btn:hover i {
+    transform: translateX(5px); /* Move the icon slightly on hover */
 }
 
 .about .about-content .skills {
@@ -762,8 +833,38 @@ h3.my-profession {
 }
 
 .contact .contact-form .btn {
-    height: 50px;
-    padding: 0 50px;
+    height: 40px; /* Reduce height */
+    padding: 0 150px 0 15px; /* Reduce padding */
+    max-width: 150px; /* Set a maximum width */
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--skin-color), #ff6b6b); /* Gradient background */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Slightly smaller border radius */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    position: relative; /* For positioning the arrow */
+    overflow: hidden; /* To contain the arrow */
+    display: flex; /* Use Flexbox */
+    align-items: center; /* Vertically center the text */
+    justify-content: space-between; /* Space between text and icon */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 14px; /* Reduce font size */
+}
+
+.contact .contact-form .btn:hover {
+    background: linear-gradient(90deg, #ff6b6b, var(--skin-color)); /* Reverse gradient on hover */
+    transform: scale(1.1); /* Slightly enlarge */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.contact .contact-form .btn i {
+    margin-left: 12px; /* Add space between text and icon */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contact .contact-form .btn:hover i {
+    transform: translateX(5px); /* Move the icon slightly on hover */
 }
 
 @media (max-width:1399px) {
@@ -837,3 +938,12 @@ h3.my-profession {
     left: 0; /* Align to the left */
     z-index: 1000; /* Ensure it's above other content */
 }
+
+#submit-message:hover {
+    transform: 1.25;
+}
+
+#submit-message {
+    cursor: pointer;   
+}
+
