@@ -804,6 +804,26 @@ h3.my-profession {
     }
   }
 
+/* Footer Styling */
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center; /* Center-align text */
+    padding: 15px 0; /* Add some padding */
+    position: relative; /* Relative to the content */
+    width: 100%; /* Full width */
+    margin-top: 30px; /* Add space above the footer */
+    border-top: 1px solid #444; /* Optional: Add a border */
+}
 
+.footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust font size */
+}
 
-
+.footer {
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Stick to the bottom */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it's above other content */
+}
