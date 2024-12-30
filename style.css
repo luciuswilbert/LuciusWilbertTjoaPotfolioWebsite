@@ -29,6 +29,7 @@ body {
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 ::before,::after {
@@ -128,6 +129,10 @@ ul {
 
 .btn:hover {
     transform: scale(1.05);
+}
+
+.active:hover {
+    transform: scale(1.25);
 }
 
 .shadow-dark {
@@ -575,6 +580,7 @@ h3.my-profession {
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
+
 }
 
 .service .service-item .service-item-inner {
@@ -584,6 +590,10 @@ h3.my-profession {
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
+    min-height: 300px; /* Adjust this value as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .service .service-item .service-item-inner:hover {
