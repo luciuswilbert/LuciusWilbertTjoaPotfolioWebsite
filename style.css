@@ -947,3 +947,8 @@ h3.my-profession {
     cursor: pointer;   
 }
 
+body.dark .portfolio-item-inner h4,
+body.dark .portfolio-item-inner p {
+    color: white;
+}
+
