@@ -476,7 +476,7 @@ h3.my-profession {
 .about .about-content .personal-info .buttons .btn {
     height: 40px; /* Reduce height */
     padding: 0 20px 0 15px; /* Reduce padding */
-    max-width: 150px; /* Set a maximum width */
+    max-width: 180px; /* Set a maximum width */
     cursor: pointer;
     background: linear-gradient(90deg, var(--skin-color), #ff6b6b); /* Gradient background */
     color: white;
