@@ -641,6 +641,21 @@ h3.my-profession {
     color: var(--text-black-700);
 }
 
+.about .about-content .timeline .timeline-company {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: var(--skin-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.about .about-content .timeline .timeline-company i {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
 /* Services */
 
 .service .container {
