@@ -27,8 +27,8 @@ function scrollToContact(subject) {
 
 
 let devmatchImages = [
-    "images/devmatch1.jpg",
-    "images/devmatch2.jpg",
+    "images/devMatch/devMatch1.JPG",
+    "images/devMatch/devMatch2.jpg",
 ];
 let devmatchIndex = 0;
 let devmatchInterval;
@@ -46,8 +46,8 @@ function stopDevMatchSlider() {
 }
 
 let jogetImages = [
-    "images/joget1.jpg",
-    "images/joget2.jpg"
+    "images/joget/joget1.jpg",
+    "images/joget/joget2.jpg"
 ];
 let jogetIndex = 0;
 let jogetInterval;
